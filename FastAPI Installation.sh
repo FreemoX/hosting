@@ -62,10 +62,10 @@ print('FastAPI is running and ready!')
 EOF
 echo "[INFO] ... Done."
 
+echo "FastAPI installed and ready"
 echo "--------------------------------------------------------------"
 echo "[INFO] Installed from installation script from GitHub"
 echo "[INFO] Configuration and setup complete"
 echo "[INFO] API should be available on {{SERVER_IP}}:{{SERVER_PORT}}/"
 echo "[INFO] You should see Hello, World! on that page."
 echo "--------------------------------------------------------------"
-uvicorn main:app --reload
