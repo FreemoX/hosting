@@ -61,6 +61,7 @@ EOF
 echo "[INFO] ... Done."
 
 echo "--------------------------------------------------------------"
+echo "[INFO] Installed from installation script from GitHub"
 echo "[INFO] Configuration and setup complete"
 echo "[INFO] API should be available on {{SERVER_IP}}:{{SERVER_PORT}}/"
 echo "[INFO] You should see Hello, World! on that page."
