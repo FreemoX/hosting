@@ -66,3 +66,4 @@ echo "[INFO] Configuration and setup complete"
 echo "[INFO] API should be available on {{SERVER_IP}}:{{SERVER_PORT}}/"
 echo "[INFO] You should see Hello, World! on that page."
 echo "--------------------------------------------------------------"
+uvicorn main:app --reload
