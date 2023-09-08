@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "[INFO] Pulled installation script from GitHub"
+
 echo "[INFO] Installing Python3 and pip3 ..."
 apt update && apt install python3 python3-pip -y
 echo "[INFO] ... Done."
