@@ -3,10 +3,10 @@
 echo "[INFO] Pulled installation script from GitHub"
 
 echo "[INFO] Installing Python3 and pip3 ..."
-apt update && apt install python3 python3-pip -y
+apt update && apt upgrade -y && apt install python3 python3-pip -y
 echo "[INFO] ... Done."
 echo "[INFO] Installing FastAPI, Uvicorn, MySQL connectors, Properties Parser and SQLAlchemy ..."
-pip3 install fastapi[all] uvicorn mysql-connector-python jproperties sqlalchemy pymysql
+pip3 install fastapi[all] uvicorn[standard] mysql-connector-python jproperties sqlalchemy pymysql
 echo "[INFO] ... Done."
 
 echo "[INFO] Generating config.properties ..."
