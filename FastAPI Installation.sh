@@ -57,7 +57,7 @@ async def read_root():
 if __name__ == "__main__":
     import uvicorn
     #uvicorn.run(app, host="0.0.0.0", port={api_port})
-    echo "FastAPI is running and ready!"
+    print('FastAPI is running and ready!')
 EOF
 echo "[INFO] ... Done."
 
